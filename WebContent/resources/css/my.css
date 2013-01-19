@@ -1,0 +1,38 @@
+{
+  "Envelope": {
+    "Body": {
+      "OutputParameters": {
+        "X_RESULT": {
+          "Row": {
+            "Column": [
+              {
+                "name": "PRICE_LIST_NAME",
+                "sqltype": "VARCHAR2",
+                "$_text": "test1"
+              },
+              {
+                "name": "INVENTORY_ITEM_ID",
+                "sqltype": "NUMBER",
+                "$_text": "73"
+              },
+              {
+                "name": "ITEM_NO",
+                "sqltype": "VARCHAR2",
+                "$_text": "80004001000004"
+              },
+              {
+                "name": "ITEM_DESC",
+                "sqltype": "VARCHAR2",
+                "$_text": "aaa"
+              },{
+                "name": "UOM_CODE","sqltype": "VARCHAR2","$_text": "MPS"},{
+                "name": "UNIT_PRICE","sqltype": "VARCHAR2",
+                "$_text": ".5" }]
+          }},
+        "X_RETURN_STATUS": "Success!",
+        "X_MSG_DATA": {
+          "nil": "true"
+        }
+      }
+    }}
+}
